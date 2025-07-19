@@ -116,6 +116,34 @@
   <h1>ImageTrend Registration</h1>
   <form action="https://formsubmit.co/33baa8a2c3d9ff650909507b947dcdfc" method="POST">
 
+    <!-- New Section Added -->
+    <h2>Account Information</h2>
+
+    <label for="account-exists">Do you already have an Image Trend account?</label>
+    <select name="Image Trend Account" id="account-exists" required>
+      <option value="" disabled selected>-- Select an option --</option>
+      <option value="Yes, I have an account for BLFD">Yes, I have an account for BLFD</option>
+      <option value="Yes, but it is for another company">Yes, but it is for another company</option>
+      <option value="No">No</option>
+    </select>
+
+    <label for="know-username">Do you know your BLFD Image Trend username?</label>
+    <select name="Know Username" id="know-username" required>
+      <option value="" disabled selected>-- Select an option --</option>
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+      <option value="Not Applicable">Not Applicable</option>
+    </select>
+
+    <label for="password-reset">Do you need your password reset?</label>
+    <select name="Password Reset Needed" id="password-reset" required>
+      <option value="" disabled selected>-- Select an option --</option>
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+      <option value="Not Applicable">Not Applicable</option>
+    </select>
+
+    <!-- Original Form Sections -->
     <h2>Personal Information</h2>
     <label>First Name:
       <input type="text" name="First Name" required>
